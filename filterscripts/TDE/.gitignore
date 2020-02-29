@@ -27,9 +27,6 @@ server.cfg
 # Plugins directory
 plugins/
 
-# .vscode directory0
-.vscode/
-
 # binaries
 *.exe
 *.dll
@@ -45,9 +42,6 @@ crashinfo.txt
 
 # Ban list
 samp.ban
-
-# Enviroment variable
-.env
 
 #
 # Common files

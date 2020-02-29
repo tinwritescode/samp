@@ -1,29 +1,38 @@
 {
-	"user": "josh804",
-	"repo": "rolesamp",
+	"user": "khapxungquanh",
+	"repo": "roleplay-vn",
 	"entry": "gamemodes/rpg.pwn",
 	"output": "gamemodes/rpg.amx",
 	"dependencies": [
-		"sampctl/samp-stdlib:0.3.DL-R1",
+		"sampctl/samp-stdlib",
 		"pBlueG/SA-MP-MySQL:R41-4",
 		"samp-incognito/samp-streamer-plugin@master",
-		"pawn-lang/YSI-Includes@5.x"
+		"pawn-lang/YSI-Includes@5.x",
+		"dakyskye/pawn-env",
+		"maddinat0r/sscanf"
 	],
 	"builds": [
 		{
-			"name": "",
+			"name": "default",
 			"includes": [
 				"legacy"
-			]
+			],
+			"version": "3.10.9"
 		}
 	],
 	"runtime": {
-		"version": "0.3.7",
+		"version": "0.3.DL-R1",
 		"mode": "server",
 		"echo": "-",
 		"rcon_password": "password",
 		"port": 7777,
 		"hostname": "SA-MP Server",
+		"plugins" : [
+			"TDE"
+		],
+		"filterscripts" : [
+			"TDE"
+		],		
 		"maxplayers": 50,
 		"language": "",
 		"mapname": "San Andreas",
@@ -55,5 +64,6 @@
 		"conncookies": true,
 		"cookielogging": false,
 		"output": true
-	}
+	},
+	"local": true
 }

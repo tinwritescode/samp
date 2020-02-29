@@ -1,0 +1,18 @@
+{
+	"version": "0.3.DL-R1",
+	"gamemodes": [
+		"rpg"
+	],
+	"filterscripts": [
+	],
+	"plugins": [
+		"env",
+		"mysql",
+		"sscanf",
+		"streamer"
+	],
+	"rcon_password": "/|LuXb697.{|",
+	"port": 7777,
+	"hostname": "SA-MP Server",
+	"maxplayers": 32
+}
